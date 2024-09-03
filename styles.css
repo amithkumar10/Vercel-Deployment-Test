@@ -1,17 +1,18 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  color: #333;
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: #000000 solid 10px; */
 }
 
+/* Container */
 .Container {
   width: 60rem;
   max-width: 100%;
   margin: 0 auto;
+  /* border: #000000 solid 2px; */
 }
 
 /* Navbar */
@@ -69,6 +70,7 @@ nav ul.nav-links.active {
   height: 30rem;
   justify-content: space-between;
   margin-top: 6rem;
+  /* border: #000000 solid 2px; */
 }
 
 .quick-contact {
@@ -86,6 +88,7 @@ nav ul.nav-links.active {
   padding: 2rem;
   background-color: #fff;
   color: #333;
+  /* border: #000000 solid 2px; */
 }
 
 .about-section h2 {
@@ -140,6 +143,7 @@ nav ul.nav-links.active {
   padding: 2rem;
   background-color: #fff;
   color: #333;
+  /* border: #000000 solid 2px; */
 }
 
 .projects-section h2 {
@@ -164,6 +168,7 @@ nav ul.nav-links.active {
   color: #333;
   margin-bottom: 5rem;
   box-shadow: #000000 1rem, 20px, 10px, 5px;
+  /* border: #000000 solid 2px; */
 }
 
 .contact-section h2 {
