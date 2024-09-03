@@ -278,29 +278,7 @@ footer {
     display: flex;
   }
 
-  .profile-section {
-    flex-direction: column;
-    text-align: center;
-    height: auto;
-    align-items: center;
-    padding: 2rem;
-    background-color: #fff;
-    color: #333;
-  }
-
-  .profile-info h1 {
-    font-size: 2px;
-  }
-
-  .profile-info b {
-    font-size: 5px;
-  }
-
-  .profile-info p {
-    font-size: 3px;
-  }
-
-  .about-section h2,
+  git .about-section h2,
   .skills-section h2,
   .projects-section h2,
   .contact-section h2 {
