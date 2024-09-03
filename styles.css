@@ -278,11 +278,15 @@ footer {
     display: flex;
   }
 
-  git .about-section h2,
+  .about-section h2,
   .skills-section h2,
   .projects-section h2,
   .contact-section h2 {
     font-size: 1.25rem;
+  }
+
+  .about-section {
+    margin-top: 20rem;
   }
 
   .skill-card {
@@ -307,6 +311,7 @@ footer {
   margin-right: 4rem;
   max-width: 50%;
   text-align: center;
+  margin-left: 5rem;
 }
 
 .profile-info h1 {
@@ -322,78 +327,6 @@ footer {
   font-size: 1.1rem;
   margin-top: 0.5rem;
 }
-
-/* About Section */
-/* .about-section {
-  padding: 2rem;
-  background-color: #fff;
-  color: #333;
-}
-
-.about-section h2 {
-  font-size: 1.5rem;
-}
-
-.about-section p {
-  font-size: 1rem;
-} */
-
-/* Skills Section */
-/* .skills-section {
-  padding: 2rem;
-  background-color: #fff;
-  color: #333;
-}
-
-.skills-section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 1rem;
-}
-
-.skill-card {
-  background-color: #f0f0f0;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.skill-card img {
-  width: 50px;
-  height: 50px;
-}
-
-.skill-card p {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-} */
-
-/* Projects Section */
-/* .projects-section {
-  padding: 2rem;
-  background-color: #fff;
-  color: #333;
-}
-
-.projects-section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.projects-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.projects-section ul li {
-  margin-bottom: 0.5rem;
-} */
 
 /* Contact Section */
 .contact-section {
